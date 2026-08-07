@@ -1,0 +1,15 @@
+def calculater(a , b , operation):
+	      if operation == "+":
+	      	     return a + b
+	      elif operation == "-":	    
+	       	    return a - b
+	      elif operation == "*":
+	      	    return a * b
+	      elif operation == "/":
+	      	    return a / b 
+	      else:
+	      	    return " operation not valied "
+a=float(input("Enter first number : "))
+b=float(input("Enter second number : "))
+operation=input("Enter operation (+ , - , * , /): ")
+print(calculater( a , b , operation))	      	    	    
